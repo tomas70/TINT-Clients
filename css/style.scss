@@ -1,7 +1,7 @@
 // Avenir Font
 @import "avenir-min.css";
 body {
-	font-family: 'Avenir';
+	font-family: 'Avenir-Book';
 	font-size: 14px;
 	padding-top: 50px;
 }
@@ -9,8 +9,39 @@ body {
     margin: 0 auto;
 }
 /* --- navbar --- */
-.navbar-collapse {
-	
+nav {
+	background-color: #fff;
+	.navbar-brand {
+		padding: 0;
+		padding-top: 10px;
+	}
+	.navbar-collapse {
+		.navbar-nav {
+			margin-left: 112px;
+			padding-top: 15px;
+			li>a {
+				color: #181818;
+				padding: 10px 17px;
+				transition: all ease-in-out 0.3s;
+				&:hover, &:focus {
+					background-color: transparent;
+					color: #26e0bd;
+				}
+			}
+		}
+		.request-demo {
+			padding: 8px 22px;
+			border-color: #26e0bd;
+			border-radius: 100px;
+			border: 1.5px solid;
+			color: #26e0bd;
+			transition: all ease-in-out 0.5s;
+			&:hover, &:focus {
+				background-color: #26e0bd;
+				color: #fff;
+			}
+		}
+	}
 }
 /* --- business-header --- */
 .business-header {
