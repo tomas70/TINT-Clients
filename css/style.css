@@ -8,23 +8,23 @@ body {
   margin: 0 auto; }
 
 /* --- navbar --- */
-nav {
+.main-nav {
   background-color: #fff; }
-  nav .navbar-brand {
+  .main-nav .navbar-brand {
     padding: 0;
     padding-top: 10px; }
-  nav .navbar-collapse .navbar-nav {
+  .main-nav .navbar-collapse .navbar-nav {
     margin-left: 112px;
     padding-top: 15px; }
-    nav .navbar-collapse .navbar-nav li > a {
+    .main-nav .navbar-collapse .navbar-nav li > a {
       color: #181818;
       padding: 10px 17px;
       -webkit-transition: all ease-in-out 0.3s;
       transition: all ease-in-out 0.3s; }
-      nav .navbar-collapse .navbar-nav li > a:hover, nav .navbar-collapse .navbar-nav li > a:focus {
+      .main-nav .navbar-collapse .navbar-nav li > a:hover, .main-nav .navbar-collapse .navbar-nav li > a:focus {
         background-color: transparent;
         color: #26e0bd; }
-  nav .navbar-collapse .request-demo {
+  .main-nav .navbar-collapse .request-demo {
     padding: 8px 22px;
     border-color: #26e0bd;
     border-radius: 100px;
@@ -32,7 +32,7 @@ nav {
     color: #26e0bd;
     -webkit-transition: all ease-in-out 0.5s;
     transition: all ease-in-out 0.5s; }
-    nav .navbar-collapse .request-demo:hover, nav .navbar-collapse .request-demo:focus {
+    .main-nav .navbar-collapse .request-demo:hover, .main-nav .navbar-collapse .request-demo:focus {
       background-color: #26e0bd;
       color: #fff; }
 
@@ -62,15 +62,49 @@ nav {
   background-color: #fff;
   position: relative;
   margin-bottom: 48px; }
-  .client-logos nav {
-    position: absolute; }
-  .client-logos .navbar-default {
+  .client-logos .second-nav {
+    padding-top: 10px;
     background-color: #fff;
-    border-color: #bababa; }
-  .client-logos .client-scroll {
+    border-color: #bababa;
+    position: absolute; }
+    .client-logos .second-nav .navbar-collapse {
+      margin-left: 15px; }
+      .client-logos .second-nav .navbar-collapse ul li > a {
+        border-bottom: 0.5px solid #bababa;
+        color: #3c3c40;
+        padding: 10px 40px;
+        font-family: 'Avenir-Heavy';
+        font-size: 14px;
+        font-weight: 900;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.71;
+        letter-spacing: normal; }
+        .client-logos .second-nav .navbar-collapse ul li > a:hover, .client-logos .second-nav .navbar-collapse ul li > a:focus {
+          color: #26e0bd;
+          border-color: linear-gradient(to left, #5df7e9, #2feccf);
+          border-bottom: 3px solid;
+          padding-bottom: 9px; }
+  .client-logos .clients-scroll {
     margin-top: 60px;
     overflow: scroll;
-    height: 430px; }
+    min-height: 430px;
+    background-color: #fff; }
+    .client-logos .clients-scroll .show-more-button {
+      text-align: center; }
+      .client-logos .clients-scroll .show-more-button .show-more {
+        font-family: 'Avenir-Heavy';
+        font-size: 14px;
+        font-weight: 900;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.71;
+        letter-spacing: normal;
+        color: #181818;
+        background-color: #fff;
+        border-color: #e4e4e4;
+        border-radius: 0;
+        padding: 8px 43px; }
 
 /* --- container see-how --- */
 .see-how {

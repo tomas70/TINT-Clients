@@ -9,7 +9,7 @@ body {
     margin: 0 auto;
 }
 /* --- navbar --- */
-nav {
+.main-nav {
 	background-color: #fff;
 	.navbar-brand {
 		padding: 0;
@@ -69,17 +69,57 @@ nav {
 	background-color: #fff;
 	position: relative;
 	margin-bottom: 48px;
-	nav {
-		position: absolute;
-	}
-	.navbar-default {
+	.second-nav {
+		padding-top: 10px;
 		background-color: #fff;
 		border-color: #bababa;
+		position: absolute;
+		.navbar-collapse {
+			margin-left: 15px;
+			ul {
+				li>a {
+					border-bottom: 0.5px solid #bababa;
+					color: #3c3c40;
+					padding: 10px 40px;
+					font-family: 'Avenir-Heavy';
+					font-size: 14px;
+					font-weight: 900;
+					font-style: normal;
+					font-stretch: normal;
+					line-height: 1.71;
+					letter-spacing: normal;
+					&:hover, &:focus {
+						color: #26e0bd;
+						border-color: linear-gradient(to left, #5df7e9, #2feccf);
+						border-bottom: 3px solid;
+						padding-bottom: 9px;
+					}
+				}
+			}
+		}
 	}
-	.client-scroll {
+	.clients-scroll {
 		margin-top: 60px;
 		overflow: scroll;
-		height: 430px;
+		min-height: 430px;
+		background-color: #fff;
+		.show-more-button {
+			text-align: center;
+			.show-more {
+				font-family: 'Avenir-Heavy';
+				font-size: 14px;
+				font-weight: 900;
+				font-style: normal;
+				font-stretch: normal;
+				line-height: 1.71;
+				letter-spacing: normal;
+				color: #181818;
+				background-color: #fff;
+				border-color: #e4e4e4;
+				border-radius: 0;
+				padding: 8px 43px;
+			}
+		}
 	}
 }
 /* --- container see-how --- */
