@@ -15,10 +15,17 @@ body {
     padding-top: 10px; }
   .main-nav .navbar-collapse .navbar-nav {
     margin-left: 112px;
-    padding-top: 15px; }
+    padding-top: 18px; }
     .main-nav .navbar-collapse .navbar-nav li > a {
+      font-family: 'Avenir-Heavy';
+      font-size: 14px;
+      font-weight: 900;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 0.86;
+      letter-spacing: 0.2px;
       color: #181818;
-      padding: 10px 17px;
+      padding: 10px 37px;
       -webkit-transition: all ease-in-out 0.3s;
       transition: all ease-in-out 0.3s; }
       .main-nav .navbar-collapse .navbar-nav li > a:hover, .main-nav .navbar-collapse .navbar-nav li > a:focus {

@@ -18,10 +18,17 @@ body {
 	.navbar-collapse {
 		.navbar-nav {
 			margin-left: 112px;
-			padding-top: 15px;
+			padding-top: 18px;
 			li>a {
+				font-family: 'Avenir-Heavy';
+				font-size: 14px;
+				font-weight: 900;
+				font-style: normal;
+				font-stretch: normal;
+				line-height: 0.86;
+				letter-spacing: 0.2px;
 				color: #181818;
-				padding: 10px 17px;
+				padding: 10px 37px;
 				transition: all ease-in-out 0.3s;
 				&:hover, &:focus {
 					background-color: transparent;
