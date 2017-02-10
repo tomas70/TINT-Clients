@@ -53,10 +53,34 @@ nav {
   	h1 {
   		font-family: 'Avenir-Black';
   		font-size: 44px;
+  		font-weight: 900;
+  		font-style: normal;
+		font-stretch: normal;
+		line-height: 1.27;
+		letter-spacing: normal;
   		margin-top: 158px;
   		margin-left: 110px;
   		color: #fff;
   	}
+}
+/* --- Page content --- */
+.client-logos {
+	margin-top: -200px;
+	background-color: #fff;
+	position: relative;
+	margin-bottom: 48px;
+	nav {
+		position: absolute;
+	}
+	.navbar-default {
+		background-color: #fff;
+		border-color: #bababa;
+	}
+	.client-scroll {
+		margin-top: 60px;
+		overflow: scroll;
+		height: 430px;
+	}
 }
 /* --- container see-how --- */
 .see-how {
