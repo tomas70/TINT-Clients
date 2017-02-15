@@ -72,7 +72,7 @@ body {
 }
 /* --- Page content --- */
 .client-logos {
-	margin-top: -200px;
+	margin-top: -220px;
 	background-color: #fff;
 	position: relative;
 	margin-bottom: 48px;
@@ -87,7 +87,7 @@ body {
 				li>a {
 					border-bottom: 0.5px solid #bababa;
 					color: #3c3c40;
-					padding: 10px 40px;
+					padding: 10px 43px;
 					font-family: 'Avenir-Heavy';
 					font-size: 14px;
 					font-weight: 900;
@@ -101,6 +101,7 @@ body {
 						border-color: linear-gradient(to left, #5df7e9, #2feccf);
 						border-bottom: 3px solid;
 						padding-bottom: 9px;
+						cursor: pointer;
 					}
 				}
 			}
@@ -115,6 +116,11 @@ body {
 		background-color: #fff;
 		.row {
 			margin-bottom: 30px;
+			.element-item {
+			  display: table-cell;
+			  float: none;
+			  vertical-align: middle;
+			}
 		}
 	}
 	.show-more-button {

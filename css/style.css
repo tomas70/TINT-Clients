@@ -65,7 +65,7 @@ body {
 
 /* --- Page content --- */
 .client-logos {
-  margin-top: -200px;
+  margin-top: -220px;
   background-color: #fff;
   position: relative;
   margin-bottom: 48px; }
@@ -79,7 +79,7 @@ body {
       .client-logos .second-nav .navbar-collapse ul li > a {
         border-bottom: 0.5px solid #bababa;
         color: #3c3c40;
-        padding: 10px 40px;
+        padding: 10px 43px;
         font-family: 'Avenir-Heavy';
         font-size: 14px;
         font-weight: 900;
@@ -92,7 +92,8 @@ body {
           color: #26e0bd;
           border-color: linear-gradient(to left, #5df7e9, #2feccf);
           border-bottom: 3px solid;
-          padding-bottom: 9px; }
+          padding-bottom: 9px;
+          cursor: pointer; }
   .client-logos .clients-scroll {
     margin-top: 80px;
     padding-left: 30px;
@@ -102,6 +103,10 @@ body {
     background-color: #fff; }
     .client-logos .clients-scroll .row {
       margin-bottom: 30px; }
+      .client-logos .clients-scroll .row .element-item {
+        display: table-cell;
+        float: none;
+        vertical-align: middle; }
   .client-logos .show-more-button {
     margin-top: 10px;
     text-align: center; }
