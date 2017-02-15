@@ -110,7 +110,7 @@
                                     </li>
                                     <li><a data-filter=".m-media">Media</a>
                                     </li>
-                                    <li><a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">More Industries <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                    <li><a class="dropdown-toggle" data-toggle="dropdown" href="#">More Industries <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                         <ul class="dropdown-menu">
                                             <li><a data-filter=".agencies">Agencies</a></li>
                                             <li><a data-filter=".association">Association</a></li>
@@ -1753,6 +1753,14 @@
             $buttonGroup.find('.active').removeClass('active');
             $( this ).addClass('active');
           });
+        });
+    </script>
+
+    <script type="text/javascript">
+        $('ul.nav li.dropdown').hover(function() {
+          $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+        }, function() {
+          $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
         });
     </script>
 
