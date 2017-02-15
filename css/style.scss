@@ -87,7 +87,7 @@ body {
 				li>a {
 					border-bottom: 0.5px solid #bababa;
 					color: #3c3c40;
-					padding: 10px 43px;
+					padding: 10px 35px;
 					font-family: 'Avenir-Heavy';
 					font-size: 14px;
 					font-weight: 900;
@@ -114,12 +114,27 @@ body {
 		overflow: scroll;
 		height: 380px;
 		background-color: #fff;
-		.row {
-			margin-bottom: 30px;
-			.element-item {
-			  display: table-cell;
-			  float: none;
-			  vertical-align: middle;
+		/* clear fix */
+		.grid:after {
+			content: '';
+			display: block;
+			clear: both;
+		}
+		.element-item {
+		  position: relative;
+		  float: left;
+		  width: 119px;
+		  height: 65px;
+		  margin: 31px 24px;
+		  padding: 0;
+		  &> * {
+			  margin: 0;
+			  padding: 0;
+			}
+			img {
+				position: absolute;
+				top: 50%;
+					transform: translateY(-50%);
 			}
 		}
 	}

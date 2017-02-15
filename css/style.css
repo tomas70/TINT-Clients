@@ -79,7 +79,7 @@ body {
       .client-logos .second-nav .navbar-collapse ul li > a {
         border-bottom: 0.5px solid #bababa;
         color: #3c3c40;
-        padding: 10px 43px;
+        padding: 10px 35px;
         font-family: 'Avenir-Heavy';
         font-size: 14px;
         font-weight: 900;
@@ -100,13 +100,27 @@ body {
     padding-right: 70px;
     overflow: scroll;
     height: 380px;
-    background-color: #fff; }
-    .client-logos .clients-scroll .row {
-      margin-bottom: 30px; }
-      .client-logos .clients-scroll .row .element-item {
-        display: table-cell;
-        float: none;
-        vertical-align: middle; }
+    background-color: #fff;
+    /* clear fix */ }
+    .client-logos .clients-scroll .grid:after {
+      content: '';
+      display: block;
+      clear: both; }
+    .client-logos .clients-scroll .element-item {
+      position: relative;
+      float: left;
+      width: 119px;
+      height: 65px;
+      margin: 31px 24px;
+      padding: 0; }
+      .client-logos .clients-scroll .element-item > * {
+        margin: 0;
+        padding: 0; }
+      .client-logos .clients-scroll .element-item img {
+        position: absolute;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+                transform: translateY(-50%); }
   .client-logos .show-more-button {
     margin-top: 10px;
     text-align: center; }
