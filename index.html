@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Business Frontpage - Start Bootstrap Template</title>
+    <title>TINT Clients</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -29,11 +29,10 @@
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-fixed-top main-nav" role="navigation">
+    <nav class="navbar navbar-default navbar-fixed-top main-nav" role="navigation">
         <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -41,8 +40,7 @@
                 </button>
                 <a class="navbar-brand" href="#"><img src="img/tint-logo-horizontal.png" alt="TINT" width="131" height="43"></a>
             </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="collapse navbar-collapse" id="navbar-collapse">
                 <ul class="nav navbar-nav">
                     <li>
                         <a href="#">Features</a>
@@ -57,7 +55,7 @@
                         <a href="#">Resources</a>
                     </li>
                     <li>
-                        <a href="#">Sing In</a>
+                        <a href="#">Sign In</a>
                     </li>
                 </ul>
                 <form class="navbar-form navbar-right">
@@ -70,8 +68,7 @@
     </nav>
 
     <!-- Image Background Page Header -->
-    <!-- Note: The background image is set within the business-casual.css file. -->
-    <header class="business-header">
+    <header class="circle-header">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -82,33 +79,30 @@
     </header>
 
     <!-- Page Content -->
-    <div class="container">
+    <div class="container hidden-xs hidden-sm hidden-md">
         <div class="row client-logos data-spy="scroll" data-target=".scrollspy"">
                 <header>
                     <nav id="target-nav" class="second-nav navbar-default navbar-fixed-top">
                         <div class="container">
-                            <div class="navbar-header">
-                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                                    <span class="sr-only">Toggle navigation</span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                </button>
-                            </div>
-                            <!-- Collect the nav links, forms, and other content for toggling -->
-                            <div class="collapse navbar-collapse button-group filters-button-group" id="bs-example-navbar-collapse-1">
+                            <div class="collapse navbar-collapse button-group filters-button-group">
                                 <ul class="nav navbar-nav navbar-left">
-                                    <li><a class="active" data-filter="*">Show All</a>
+                                    <li>
+                                        <a class="active" data-filter="*">Show All</a>
                                     </li>
-                                    <li><a data-filter=".education">Education</a>
+                                    <li>
+                                        <a data-filter=".education">Education</a>
                                     </li>
-                                    <li><a data-filter=".hospitality">Hospitality</a>
+                                    <li>
+                                        <a data-filter=".hospitality">Hospitality</a>
                                     </li>
-                                    <li><a data-filter=".tourism">Tourism</a>
+                                    <li>
+                                        <a data-filter=".tourism">Tourism</a>
                                     </li>
-                                    <li><a data-filter=".non-profits">Non-profits</a>
+                                    <li>
+                                        <a data-filter=".non-profits">Non-profits</a>
                                     </li>
-                                    <li><a data-filter=".m-media">Media</a>
+                                    <li>
+                                        <a data-filter=".m-media">Media</a>
                                     </li>
                                     <li><a class="dropdown-toggle" data-toggle="dropdown" href="#">More Industries <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                         <ul class="dropdown-menu">
@@ -152,6 +146,79 @@
                 </header>
             <section id="box" class="container clients-scroll">
                 <div class="row grid">
+                    <div class="element-item non-profits" data-category="non-profits">
+                        <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/americanRedCross.png">
+                    </div>
+                    <div class="element-item fmcg" data-category="fmcg">
+                        <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/cocaCola.png">
+                    </div>
+                     <div class="element-item fmcg" data-category="fmcg">
+                        <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/dasani.png">
+                    </div>
+                    <div class="element-item education" data-category="education">
+                        <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/dukeUniversity.png">
+                    </div>
+                     <div class="element-item education" data-category="education">
+                        <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/harvardUniversity.png">
+                    </div>
+                    <div class="element-item publishing" data-category="publishing">
+                        <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/timeINC.png">
+                    </div>
+                    <div class="element-item hospitality" data-category="hospitality">
+                        <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/hiltonHotels.png">
+                    </div>
+                    <div class="element-item retail" data-category="retail">
+                        <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/loreal.png">
+                    </div>
+                    <div class="element-item hospitality" data-category="hospitality">
+                        <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/marriott.png">
+                    </div>
+                    <div class="element-item fmcg" data-category="fmcg">
+                        <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/kraft.png">
+                    </div>
+                    <div class="element-item retail" data-category="retail">
+                        <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/patagonia.png">
+                    </div>
+                    <div class="element-item technology" data-category="technology">
+                        <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/verizon.png">
+                    </div>
+                    <div class="element-item education" data-category="education">
+                        <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/stanfordUniversity.png">
+                    </div>
+                    <div class="element-item technology retail" data-category="technology">
+                        <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/target.png">
+                    </div>
+                    <div class="element-item finance" data-category="finance">
+                        <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/visa.png">
+                    </div>
+                    <div class="element-item technology" data-category="technology">
+                        <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/google.png">
+                    </div>
+                    <div class="element-item entertainment" data-category="entertainment">
+                        <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/disney.png">
+                    </div>
+                    <div class="element-item retail" data-category="retail">
+                        <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/sharpie.png">
+                    </div>
+                    <div class="element-item technology" data-category="technology">
+                        <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/lyft.png">
+                    </div>
+                    <div class="element-item retail" data-category="retail">
+                        <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/nike.png">
+                    </div>
+                    <div class="element-item banking" data-category="banking">
+                        <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/mastercard.png">
+                    </div>
+                    <div class="element-item retail" data-category="retail">
+                        <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/nordstrom.png">
+                    </div>
+                    <div class="element-item fmcg" data-category="fmcg">
+                        <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/pAndG.png">
+                    </div>
+                    <div class="element-item consulting" data-category="consulting">
+                        <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/accenture.png">
+                    </div>
+
                     <div class="element-item technology" data-category="technology">
                         <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/3M.png">
                     </div>
@@ -164,14 +231,9 @@
                     <div class="element-item m-media" data-category="m-media">
                         <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/abuDhabiTV.png">
                     </div>
-                    <div class="element-item consulting" data-category="consulting">
-                        <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/accenture.png">
-                    </div>
                     <div class="element-item hospitality" data-category="hospitality">
                         <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/accorHotels.png">
                     </div>
-                
-
                     <div class="element-item entertainment" data-category="entertainment">
                         <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/adamLevine.png">
                     </div>
@@ -220,9 +282,6 @@
                     </div>
                     <div class="element-item non-profits" data-category="non-profits">
                         <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/americanHeartAssociation.png">
-                    </div>
-                    <div class="element-item non-profits" data-category="non-profits">
-                        <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/americanRedCross.png">
                     </div>
                     <div class="element-item fmcg" data-category="fmcg">
                         <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/anheuserBusch.png">
@@ -411,10 +470,6 @@
                         <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/CNN.png">
                     </div>
                 
-
-                    <div class="element-item fmcg" data-category="fmcg">
-                        <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/cocaCola.png">
-                    </div>
                     <div class="element-item fmcg" data-category="fmcg">
                         <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/cocaColaEnterprises.png">
                     </div>
@@ -447,10 +502,6 @@
                     <div class="element-item entertainment" data-category="entertainment">
                         <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/darrenCriss.png">
                     </div>
-                    <div class="element-item fmcg" data-category="fmcg">
-                        <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/dasani.png">
-                    </div>
-                
 
                     <div class="element-item retail" data-category="retail">
                         <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/deborahLippmann.png">
@@ -481,9 +532,6 @@
                     <div class="element-item agencies" data-category="agencies">
                         <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/digitaLBI.png">
                     </div>
-                    <div class="element-item entertainment" data-category="entertainment">
-                        <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/disney.png">
-                    </div>
                     <div class="element-item technology" data-category="technology">
                         <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/disqus.png">
                     </div>
@@ -507,10 +555,6 @@
                     <div class="element-item automotive" data-category="automotive">
                         <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/ducati.png">
                     </div>
-                    <div class="element-item education" data-category="education">
-                        <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/dukeUniversity.png">
-                    </div>
-                
 
                     <div class="element-item m-media" data-category="m-media">
                         <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/eOnline.png">
@@ -641,9 +685,6 @@
                     <div class="element-item publishing" data-category="publishing">
                         <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/golfDigest.png">
                     </div>
-                    <div class="element-item technology" data-category="technology">
-                        <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/google.png">
-                    </div>
                     <div class="element-item m-media" data-category="m-media">
                         <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/GQ.png">
                     </div>
@@ -670,11 +711,7 @@
                     <div class="element-item automotive" data-category="automotive">
                         <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/harleyDavidson.png">
                     </div>
-                
 
-                    <div class="element-item education" data-category="education">
-                        <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/harvardUniversity.png">
-                    </div>
                     <div class="element-item automotive" data-category="automotive">
                         <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/harveyNichols.png">
                     </div>
@@ -700,9 +737,6 @@
                     </div>
                     <div class="element-item fmcg" data-category="fmcg">
                         <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/herbalife.png">
-                    </div>
-                    <div class="element-item hospitality" data-category="hospitality">
-                        <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/hiltonHotels.png">
                     </div>
                     <div class="element-item automotive" data-category="automotive">
                         <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/honda.png">
@@ -771,10 +805,6 @@
                         <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/jrgDubai.png">
                     </div>
                 
-
-                    <div class="element-item hospitality" data-category="hospitality">
-                        <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/jwMarriott.png">
-                    </div>
                     <div class="element-item agencies" data-category="agencies">
                         <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/JWT.png">
                     </div>
@@ -791,10 +821,6 @@
                         <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/kohls.png">
                     </div>
                 
-
-                    <div class="element-item fmcg" data-category="fmcg">
-                        <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/kraft.png">
-                    </div>
                     <div class="element-item fmcg" data-category="fmcg">
                         <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/krispyKreme.png">
                     </div>
@@ -847,9 +873,6 @@
                     <div class="element-item publishing tourism" data-category="publishing">
                         <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/lonelyPlanet.png">
                     </div>
-                    <div class="element-item retail" data-category="retail">
-                        <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/loreal.png">
-                    </div>
                 
 
                     <div class="element-item education" data-category="education">
@@ -857,9 +880,6 @@
                     </div>
                     <div class="element-item retail" data-category="retail">
                         <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/lululemonAthletica.png">
-                    </div>
-                    <div class="element-item technology" data-category="technology">
-                        <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/lyft.png">
                     </div>
                     <div class="element-item agencies" data-category="agencies">
                         <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/mcSaatchi.png">
@@ -876,10 +896,7 @@
                         <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/margaritaville.png">
                     </div>
                     <div class="element-item hospitality" data-category="hospitality">
-                        <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/marriott.png">
-                    </div>
-                    <div class="element-item banking" data-category="banking">
-                        <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/mastercard.png">
+                        <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/jwMarriott.png">
                     </div>
                     <div class="element-item automotive" data-category="automotive">
                         <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/mazda.png">
@@ -1004,9 +1021,6 @@
                     <div class="element-item m-media" data-category="m-media">
                         <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/nielsen.png">
                     </div>
-                    <div class="element-item retail" data-category="retail">
-                        <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/nike.png">
-                    </div>
                     <div class="element-item technology" data-category="technology">
                         <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/nintendo.png">
                     </div>
@@ -1020,9 +1034,6 @@
                     </div>
                     <div class="element-item education" data-category="education">
                         <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/nordicBusinessForum.png">
-                    </div>
-                    <div class="element-item retail" data-category="retail">
-                        <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/nordstrom.png">
                     </div>
                     <div class="element-item education" data-category="education">
                         <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/northwesternUniversity.png">
@@ -1067,10 +1078,6 @@
                     <div class="element-item retail" data-category="retail">
                         <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/pandora.png">
                     </div>
-                    <div class="element-item retail" data-category="retail">
-                        <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/patagonia.png">
-                    </div>
-                
 
                     <div class="element-item fmcg" data-category="fmcg">
                         <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/patronSpiritsCompany.png">
@@ -1117,9 +1124,6 @@
                     </div>
                     <div class="element-item events" data-category="events">
                         <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/prismeInternational.png">
-                    </div>
-                    <div class="element-item fmcg" data-category="fmcg">
-                        <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/pAndG.png">
                     </div>
                     <div class="element-item agencies" data-category="agencies">
                         <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/publicis.png">
@@ -1201,9 +1205,6 @@
                     <div class="element-item entertainment" data-category="entertainment">
                         <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/theSecondCity.png">
                     </div>
-                    <div class="element-item retail" data-category="retail">
-                        <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/sharpie.png">
-                    </div>
                     <div class="element-item technology" data-category="technology">
                         <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/siemens.png">
                     </div>
@@ -1231,10 +1232,6 @@
                         <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/specialtyProduce.png">
                     </div>
                 
-
-                    <div class="element-item education" data-category="education">
-                        <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/stanfordUniversity.png">
-                    </div>
                     <div class="element-item hospitality" data-category="hospitality">
                         <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/starwoodHotels.png">
                     </div>
@@ -1260,9 +1257,6 @@
                     </div>
                     <div class="element-item telecommunications" data-category="telecommunications">
                         <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/tMobile.png">
-                    </div>
-                    <div class="element-item technology retail" data-category="technology">
-                        <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/target.png">
                     </div>
                     <div class="element-item agencies" data-category="agencies">
                         <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/tcMedia.png">
@@ -1320,9 +1314,6 @@
                     </div>
                     <div class="element-item publishing" data-category="publishing">
                         <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/timeOutDubai.png">
-                    </div>
-                    <div class="element-item publishing" data-category="publishing">
-                        <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/timeINC.png">
                     </div>
                     <div class="element-item agencies" data-category="agencies">
                         <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/TMPworldwide.png">
@@ -1401,9 +1392,6 @@
                     <div class="element-item publishing" data-category="publishing">
                         <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/vanityFair.png">
                     </div>
-                    <div class="element-item technology" data-category="technology">
-                        <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/verizon.png">
-                    </div>
                     <div class="element-item publishing" data-category="publishing">
                         <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/vice.png">
                     </div>
@@ -1411,10 +1399,6 @@
                         <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/virgin.png">
                     </div>
                 
-
-                    <div class="element-item finance" data-category="finance">
-                        <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/visa.png">
-                    </div>
                     <div class="element-item tourism" data-category="tourism">
                         <img class="img-responsive center-block" src="https://hypes-images.s3.amazonaws.com/tintup.com/clients/visitKC.png">
                     </div>
@@ -1607,24 +1591,21 @@
     </div>
     <!-- /.container see-how -->
 
+    <div class="container share">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2>Share how your organization is using TINT on <i class="fa fa-twitter" aria-hidden="true"></i> with #TINTlove</h2>
+                <img src="http://placehold.it/959x480">
+            </div>
+        </div>
+    </div>
+    <!-- /.container -->
+
     <div class="container-fluid circle-bg">
         <div class="row">
-            <div class="container share">
-                <div class="col-xs-12">
-                    <h2>Share how your organization is using TINT on <i class="fa fa-twitter" aria-hidden="true"></i> with #TINTlove</h2>
-                    <img src="http://placehold.it/959x480">
-                </div>
+            <div class="col-xs-12 get-started">
+                <p>Get Started with TINT <a href="http://www.tintup.com/demo" type="button" class="btn btn-default request-demo">Request Demo</a></p>
             </div>
-            <!-- /.container -->
-        </div>
-        <!-- /.row -->
-        <div class="row">
-            <div class="container get-started">
-                <div class="col-xs-12">
-                    <p>Get Started with TINT <a href="http://www.tintup.com/demo" type="button" class="btn btn-default request-demo">Request Demo</a></p>
-                </div>
-            </div>
-            <!-- /.container -->
         </div>
         <!-- /.row -->
     </div>
@@ -1694,8 +1675,8 @@
                     <div class="col-lg-4 col-lg-offset-2">
                         <form class="form-inline">
                           <div class="form-group">
-                            <label for="exampleInputEmail3">Newsletter:</label>
-                            <input type="email" class="form-control" id="exampleInputEmail3" placeholder="yourname@company.com">
+                            <label for="InputEmail">Newsletter:</label>
+                            <input type="email" class="form-control" id="InputEmail" placeholder="yourname@company.com">
                           </div>
                           <button type="submit" class="btn btn-default btn-login">Sign up</button>
                         </form>
@@ -1755,15 +1736,6 @@
           });
         });
     </script>
-
-    <script type="text/javascript">
-        $('ul.nav li.dropdown').hover(function() {
-          $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
-        }, function() {
-          $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
-        });
-    </script>
-
     <script type="text/javascript">
         $('#btnExpand').click(function(){
             $('#box').css('height', 'inherit');
