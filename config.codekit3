@@ -7,8 +7,14 @@
 		"uuidString": "6717FC94-8349-49CD-93E6-E6767BEC2372"
 		}
 	],
-"creatorBuild": "25504",
+"creatorBuild": "25568",
 "files": {
+	"\/artboard.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/artboard.html",
+		"oF": 0
+		},
 	"\/css\/avenir-min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -211,6 +217,30 @@
 		"oA": 2,
 		"oAP": "\/fonts\/glyphicons-halflings-regular.woff2",
 		"oF": 0
+		},
+	"\/img\/m-b-pr.png": {
+		"ft": 32768,
+		"iS": 158317,
+		"oA": 0,
+		"oAP": "\/img\/m-b-pr.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/m-b-pr@2x.png": {
+		"ft": 32768,
+		"iS": 476251,
+		"oA": 0,
+		"oAP": "\/img\/m-b-pr@2x.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/m-b-pr@3x.png": {
+		"ft": 32768,
+		"iS": 889812,
+		"oA": 0,
+		"oAP": "\/img\/m-b-pr@3x.png",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/img\/tint-logo-horizontal.png": {
 		"ft": 32768,
@@ -1158,6 +1188,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-multi-assign": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-multi-spaces": {
 			"active": 0,
 			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
@@ -1486,6 +1520,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
+			},
 		"prefer-rest-params": {
 			"active": 0,
 			"optionString": ""
@@ -1579,6 +1617,10 @@
 			"optionString": ""
 			},
 		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"template-tag-spacing": {
 			"active": 0,
 			"optionString": "'never'"
 			},

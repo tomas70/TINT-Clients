@@ -63,6 +63,35 @@ body {
     margin-left: 110px;
     color: #fff; }
 
+/* --- artboard header --- */
+.artboard-header {
+  background-color: #264563;
+  margin: 0 auto;
+  padding-bottom: 260px;
+  text-align: center; }
+  .artboard-header h1 {
+    margin-top: 73px;
+    margin-bottom: 20px;
+    font-family: 'Avenir-Heavy';
+    font-size: 36px;
+    color: #fff;
+    font-weight: 900; }
+  .artboard-header p {
+    margin-bottom: 20px;
+    font-family: 'Avenir-Medium';
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff; }
+  .artboard-header .request-demo {
+    margin-left: 20px;
+    padding: 6px 18px;
+    background-color: #ff564b;
+    border-color: #ff564b;
+    font-family: 'Avenir-Heavy';
+    font-size: 12px;
+    font-weight: 900;
+    color: #fff; }
+
 /* --- Page content --- */
 .client-logos {
   margin-top: -220px;
@@ -257,6 +286,51 @@ body {
       border-color: #ff564b;
       font-size: 12px;
       color: #fff; }
+
+/* --- artboard page --- */
+.m-b-pr {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: -220px; }
+
+.free-tool {
+  margin-top: 70px;
+  margin-bottom: 90px; }
+  .free-tool h2 {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-family: 'Avenir-Medium';
+    font-size: 36px;
+    font-weight: 500; }
+  .free-tool h3 {
+    font-family: 'Avenir-Heavy';
+    font-size: 18px;
+    font-weight: 900; }
+  .free-tool p {
+    margin-bottom: 30px;
+    font-family: 'Avenir-Book';
+    font-size: 14px;
+    color: #282828; }
+  .free-tool form {
+    background-color: #f6f6f6;
+    padding: 49px 59px; }
+    .free-tool form .form-control {
+      height: 62px;
+      padding: 20px;
+      font-family: 'Avenir-Book';
+      font-size: 16px;
+      color: #282828; }
+    .free-tool form .btn-default {
+      padding: 12px 0;
+      width: 100%;
+      border-radius: 5px;
+      background-color: #ff564b;
+      border-color: #ff564b;
+      color: #fff;
+      font-family: 'Avenir-Heavy';
+      font-size: 16px;
+      font-weight: 900;
+      line-height: 0.75; }
 
 /* --- footer --- */
 footer {
