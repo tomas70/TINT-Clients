@@ -9,6 +9,22 @@ body {
 .img-center {
     margin: 0 auto;
 }
+
+.vertical {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.mobile-client {
+	width: 120px;
+	min-height: 120px;
+	position: relative;
+	margin: 0 auto;
+}
 /* --- navbar --- */
 .main-nav {
 	background-color: #fff;
@@ -120,9 +136,13 @@ body {
     background-image: linear-gradient(128deg, #ff564b, #ff5648 49%, #fa6037);
     -webkit-clip-path: circle(46.0% at 27% 23%);
   	clip-path: circle(46.0% at 27% 23%);
+
+  	@media screen and (max-width: 1200px) {
+  		clip-path: circle(60% at 50% 23%);
+  	}
   	h1 {
   		font-family: 'Avenir-Black';
-  		@include responsive-font(3vw, 20px, 44px, 44px);
+  		@include responsive-font(3vw, 28px, 44px, 44px);
 		line-height: 1.27;
   		margin-top: 158px;
   		color: #fff;
@@ -161,6 +181,20 @@ body {
 	}
 }
 /* --- Page content --- */
+.show-more-button {
+	margin-top: 10px;
+	text-align: center;
+	.show-more {
+		font-family: 'Avenir-Heavy';
+		font-size: 14px;
+		line-height: 1.71;
+		color: #181818;
+		background-color: #fff;
+		border-color: #e4e4e4;
+		border-radius: 0;
+		padding: 8px 43px;
+	}
+}
 .client-logos {
 	margin-top: -220px;
 	background-color: #fff;
@@ -229,23 +263,23 @@ body {
 			}
 		}
 	}
-	.show-more-button {
-		margin-top: 10px;
-		text-align: center;
-		.show-more {
-			font-family: 'Avenir-Heavy';
-			font-size: 14px;
-			line-height: 1.71;
-			color: #181818;
-			background-color: #fff;
-			border-color: #e4e4e4;
-			border-radius: 0;
-			padding: 8px 43px;
+
+	&-mobile {
+		margin-top: -280px;
+		background: #fff;
+		position: relative;
+		height: 350px;
+		overflow: hidden;
+
+		@media screen and (max-width: 768px) {
+			margin-left: 20px;
+			margin-right: 20px;
 		}
 	}
 }
 /* --- container see-how --- */
 .see-how {
+	display: none;
 	.h2 {
 		margin-top: 55px;
 		margin-bottom: 40px;
@@ -370,6 +404,11 @@ body {
 	position: relative;
 	clip-path: circle(85% at 50% 170%);
     margin-top: -190px;
+
+    @media screen and (max-width: 768px) {
+    	clip-path: circle(100% at 50% 120%);
+    	margin-top: 0px;
+    }
 	.get-started {
 		text-align: center;
 		margin-top: 108px;
